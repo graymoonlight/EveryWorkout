@@ -1,4 +1,4 @@
-import '../../../Assets/Styles/HomePage/header.scss';
+import '../../../Assets/Styles/NavPage/header.scss';
 import Logo from '../../../Assets/Images/logo.png';
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -11,12 +11,12 @@ function Header() {
         </div>
         <nav>
             <ul>
+                <li><Link to="/">Главная</Link></li>
                 <li><a href="#">Тренировки</a></li>
                 <li><a href="#">Питание</a></li>
                 <li><a href="#">Прогресс</a></li>
                 <li><a href="#">Советы</a></li>
                 <li><a href="#">Сообщества</a></li>
-                <li><Link to="/navigation">Карта</Link></li>
             </ul>
         </nav>
       </header>
