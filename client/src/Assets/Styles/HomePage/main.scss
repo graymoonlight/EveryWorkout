@@ -1,0 +1,49 @@
+main {
+    padding: 20px; /* Добавляем отступы вокруг содержимого */
+    background-color: #f0f0f0; /* Задаем цвет фона */
+    text-align: center; /* Выравниваем текст по центру */
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; /* Фон для секции "Добро пожаловать" */
+    padding: 30px;
+    border-radius: 10px; /* Создаем закругленные углы для блока */
+}
+
+.welcome img {
+    flex: 1;
+    max-width: 50%;
+    height: auto;
+}
+
+.featured-workouts, .nutrition-tips {
+    margin-top: 20px; /* Добавляем отступ сверху для секций "Популярные тренировки" и "Советы по питанию" */
+}
+
+.workout-card, .nutrition-tip {
+    background-color: #ffffff; /* Фон для карточек тренировок и советов по питанию */
+    border: 1px solid #ccc; /* Добавляем обводку */
+    border-radius: 5px; /* Создаем закругленные углы для карточек */
+    padding: 15px;
+    margin: 10px; /* Отступ между карточками */
+}
+
+/* Стили для изображений в карточках */
+.workout-card img, .nutrition-tip img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Стили для заголовков */
+.workout-card h3, .nutrition-tip h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Стили для текста */
+.workout-card p, .nutrition-tip p {
+    font-size: 14px;
+    color: #555;
+}
